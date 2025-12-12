@@ -1,0 +1,38 @@
+:root{
+    --preto: #0A0A0A;
+    --cinza-escuro: #1C1C1C;
+    --cinza: #2B2B2B;
+    --branco: #F2F1E9;
+    --bege: #E8E6DD;
+    --amarelo: #F0C800;
+    --amarelo-escuro: #D3B100;
+    --vermelho: #CB3E53;
+    --vermelho-escuro: #B33742;
+}
+
+@font-face {
+    font-family: "trade-gothic";
+    src: url("fontes/trade-gothic-lt.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "wasted-punk";
+    src: url("fontes/WastedPunk.ttf") format("truetype");
+}
+
+body{
+    margin: 0;
+    background-color: var(--preto);
+    color: var(--branco);
+    font-family: "trade-gothic";
+    font-size: 16px;
+}
+
+#loc{
+    background: var(--vermelho);
+    text-align: center;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    margin: 0;
+}
+
